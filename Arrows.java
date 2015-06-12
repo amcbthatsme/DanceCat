@@ -8,4 +8,5 @@ public interface Arrows {
    public void setY(int xSet);
    public void stop();
    public BufferedImage getArrow();
+   public String getName();
 }

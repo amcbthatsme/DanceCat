@@ -10,6 +10,7 @@ public class RightArrow implements Arrows {
    public int y = 0;
    public BufferedImage arrow; 
    private String direction;
+   public String name = "right";
    public RightArrow( )throws  FileNotFoundException{
    try{
       arrow = (ImageIO.read(new File("FallRight.png")));
@@ -34,5 +35,8 @@ public class RightArrow implements Arrows {
    
    public void setY(int ySet){
       y = ySet;
+   }
+    public String getName(){
+      return name;
    }
 }

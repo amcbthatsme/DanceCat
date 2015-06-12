@@ -17,7 +17,7 @@ public class Instructions implements ActionListener{
    public void actionPerformed(ActionEvent e){
       play.setVisible(false);
       instruct.setVisible(false); 
-      JLabel instructer = new JLabel("<html>DanceCat is based off of the popular game<BR>Dance Dance Revolution.<BR>You will see several falling arrows.<BR>When a falling arrow reaches its stationary arrow outline,<BR>press the corresponding arrow key on your keyboard.</html>");
+      JLabel instructer = new JLabel("<html>DanceCat, the beauty of dance<BR>and the cuteness of cat!<BR>You will see several falling arrows.<BR>When a falling arrow reaches its stationary arrow outline,<BR>press the corresponding arrow key on your keyboard.</html>");
       instructer.setFont(new Font( "Serif", Font.BOLD, 53));       
       window.add(instructer, BorderLayout.CENTER);
       instructer.setVisible(true);

@@ -9,6 +9,7 @@ public class UpArrow implements Arrows {
    public int x = 0;
    public int y = 0;
    public BufferedImage arrow; 
+   public String name = "up";
    private String direction;
    public UpArrow( )throws  FileNotFoundException{
    try{
@@ -34,6 +35,9 @@ public class UpArrow implements Arrows {
    
    public void setY(int ySet){
       y = ySet;
+   }
+   public String getName(){
+      return name;
    }
    
 }

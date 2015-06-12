@@ -8,6 +8,7 @@ import java.io.*;
 public class LeftArrow implements Arrows {  
    public int x = 195;
    public int y = 0;
+   public String name = "left";
    public BufferedImage arrow; 
    private String direction;
    public LeftArrow( )throws  FileNotFoundException{
@@ -34,5 +35,8 @@ public class LeftArrow implements Arrows {
    
    public void setY(int ySet){
       y = ySet;
+   }
+    public String getName(){
+      return name;
    }
 }

@@ -10,6 +10,7 @@ public class DownArrow implements Arrows {
    private int y = 0;
    public BufferedImage arrow; 
    private String direction;
+   public String name = "down";
    public DownArrow( )throws  FileNotFoundException{
    try{
       arrow = (ImageIO.read(new File("FallDown.png")));
@@ -34,6 +35,9 @@ public class DownArrow implements Arrows {
    
    public void setY(int ySet){
       y = ySet;
+   }
+    public String getName(){
+      return name;
    }
    
 }
